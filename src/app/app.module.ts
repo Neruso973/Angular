@@ -12,6 +12,7 @@ import { DirectivesComponent } from './directives/directives.component';
 import { ROUTES } from './app.routes';
 import { MenuComponent } from './menu/menu.component';
 import { SingUpComponent } from './sing-up/sing-up.component';
+import { MyFormComponent } from './my-form/my-form.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SingUpComponent } from './sing-up/sing-up.component';
     UserProfileComponent,
     DirectivesComponent,
     MenuComponent,
-    SingUpComponent
+    SingUpComponent,
+    MyFormComponent
   ],
   imports: [
     BrowserModule,
