@@ -1,21 +1,16 @@
-<div class="col">
-  <div class="row">
-    <app-block></app-block>
-    <app-block></app-block>
-  </div>
-  <div class="row">
-    <app-block></app-block>
-    <app-block></app-block>
-  </div>
-</div>
+<ul>
+  <li>
+    <a [routerLink]="['/']">Home</a>
+  </li>
+  <li>
+    <a [routerLink]="['/block']">Block</a>
+  </li>
+  <li>
+    <a [routerLink]="['/directives']">directives</a>
+  </li>
+  <li>
+    <a [routerLink]="['/profile']">user-profile</a>
+  </li>
+</ul>
 
-<div>
-  <h1>Fiche contact</h1>
-  <app-user-profile></app-user-profile>
-</div>
-
-<div>
-  <h2>Directives</h2>
-  <app-directives></app-directives>
-</div>
-
+<router-outlet></router-outlet>

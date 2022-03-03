@@ -1,5 +1,15 @@
-div {
+.block {
   height: 45px;
   width: 45px;
   border: 3px solid black;
+}
+.col {
+  height: 98vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
 }
