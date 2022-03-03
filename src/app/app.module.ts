@@ -11,6 +11,7 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
 import { DirectivesComponent } from './directives/directives.component';
 import { ROUTES } from './app.routes';
 import { MenuComponent } from './menu/menu.component';
+import { SingUpComponent } from './sing-up/sing-up.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MenuComponent } from './menu/menu.component';
     BlockComponent,
     UserProfileComponent,
     DirectivesComponent,
-    MenuComponent
+    MenuComponent,
+    SingUpComponent
   ],
   imports: [
     BrowserModule,
