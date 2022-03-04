@@ -5,6 +5,7 @@ import { DirectivesComponent } from "./directives/directives.component";
 import { UserProfileComponent } from "./user-profile/user-profile.component";
 import { SingUpComponent } from "./sing-up/sing-up.component";
 import { MyFormComponent } from "./my-form/my-form.component";
+import { DeveloperListComponent } from "./developer-list/developer-list.component";
 
 const ROUTES: Routes = [
     { path: 'block', component: BlockComponent},
@@ -13,6 +14,7 @@ const ROUTES: Routes = [
     {path: "user", component: UserProfileComponent },
     { path: '', component: UserProfileComponent},
     { path: 'form', component: MyFormComponent},
+    { path: 'dev', component: DeveloperListComponent},
 ];
 
 export { ROUTES };

@@ -1,0 +1,10 @@
+<h1>Developer</h1>
+
+<div>
+    <H2>Nom: {{developer.firstname}}</H2>
+    <H2>Prenom: {{developer.lastname}}</H2>
+    <H2>Age: {{developer.age}}</H2>
+    <p>{{developer.sexe ? "male" : "female"}}</p>
+    <p>{{developer.bio}}</p>
+        <app-skill [skills]="developer.skills"></app-skill>
+</div>

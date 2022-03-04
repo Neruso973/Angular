@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Singup } from '../sing-up';
+import { Singup } from '../common/sing-up.model';
 
 @Component({
   selector: 'app-sing-up',

@@ -1,4 +1,4 @@
-import { Order } from './order';
+import { Order } from './common/order.model';
 
 describe('Order', () => {
   it('should create an instance', () => {
