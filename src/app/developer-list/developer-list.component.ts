@@ -24,4 +24,8 @@ export class DeveloperListComponent implements OnInit {
     this.developers.push(this.nelson, this.pilou, this.Arnaud)
   }
 
+  catchData(dev: Developer) : void {
+    console.log(dev)
+  }
+
 }

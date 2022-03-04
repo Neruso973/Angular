@@ -1,2 +1,2 @@
-<app-developer *ngFor="let developer of developers" [developer]="developer"></app-developer>
+<app-developer *ngFor="let developer of developers" [developer]="developer" (sendDevelopper)="catchData($event)"></app-developer>
 

@@ -6,5 +6,13 @@
     <H2>Age: {{developer.age}}</H2>
     <p>{{developer.sexe ? "male" : "female"}}</p>
     <p>{{developer.bio}}</p>
-        <app-skill [skills]="developer.skills"></app-skill>
+    <app-skill [skills]="developer.skills"></app-skill>
+    <form (ngSubmit)="onSubmit()">
+        <label for="laptop">Laptop</label>
+        <input type="text" name="laptop" id="laptop"
+            [(ngModel)]="developer.laptop">
+        <button type="submit">click me</button>
+    </form>
+    <p>{{developer.laptop}}</p>
+    <hr>
 </div>

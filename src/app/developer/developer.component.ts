@@ -1,6 +1,5 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit, Output, EventEmitter } from '@angular/core';
 import { Developer } from '../common/developer.model';
-import { Skill } from '../common/skill.model';
 
 @Component({
   selector: 'app-developer',
@@ -11,11 +10,19 @@ export class DeveloperComponent implements OnInit {
 
   @Input()
   developer: Developer = new Developer("", "", 0, false, "", []);
+
+  @Output() 
+  sendDevelopper: EventEmitter<Developer> = new EventEmitter()
+
   
   constructor() {
 }
 
   ngOnInit(): void {
+  }
+
+  onSubmit(): void {
+    this.sendDevelopper.emit(this.developer);
   }
 
 }
