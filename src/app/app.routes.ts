@@ -6,6 +6,7 @@ import { UserProfileComponent } from "./user-profile/user-profile.component";
 import { SingUpComponent } from "./sing-up/sing-up.component";
 import { MyFormComponent } from "./my-form/my-form.component";
 import { DeveloperListComponent } from "./developer-list/developer-list.component";
+import { OnomatopiaListComponent } from "./onomatopia-list/onomatopia-list.component";
 
 const ROUTES: Routes = [
     { path: 'block', component: BlockComponent},
@@ -15,6 +16,7 @@ const ROUTES: Routes = [
     { path: '', component: UserProfileComponent},
     { path: 'form', component: MyFormComponent},
     { path: 'dev', component: DeveloperListComponent},
+    { path: 'onomatopia', component: OnomatopiaListComponent},
 ];
 
 export { ROUTES };

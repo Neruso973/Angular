@@ -16,6 +16,8 @@ import { MyFormComponent } from './my-form/my-form.component';
 import { DeveloperComponent } from './developer/developer.component';
 import { SkillComponent } from './skill/skill.component';
 import { DeveloperListComponent } from './developer-list/developer-list.component';
+import { CreateOnomatopiaComponent } from './create-onomatopia/create-onomatopia.component';
+import { OnomatopiaListComponent } from './onomatopia-list/onomatopia-list.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { DeveloperListComponent } from './developer-list/developer-list.componen
     MyFormComponent,
     DeveloperComponent,
     SkillComponent,
-    DeveloperListComponent
+    DeveloperListComponent,
+    CreateOnomatopiaComponent,
+    OnomatopiaListComponent
   ],
   imports: [
     BrowserModule,

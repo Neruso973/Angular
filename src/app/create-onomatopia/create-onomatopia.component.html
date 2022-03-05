@@ -1,0 +1,6 @@
+<h2>Create your Onomatopia</h2>
+<form (ngSubmit)="createOnomatopia()">
+    <label for="onomatopia" style="display: none;">Nouvelle Onomatopé</label>
+    <input type="text" name="onomatopia" id="onomatopia" [(ngModel)]="newOnomatopia" placeholder="Nouvelle Onomatopé">
+    <button type="submit">Valider</button>
+</form>

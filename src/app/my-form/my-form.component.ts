@@ -12,7 +12,7 @@ export class MyFormComponent implements OnInit {
   
  model: Order = new Order();
  
- constructor() { }
+ constructor() {}
  
  ngOnInit(): void {
 }
