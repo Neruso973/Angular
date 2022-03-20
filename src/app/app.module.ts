@@ -18,6 +18,7 @@ import { SkillComponent } from './skill/skill.component';
 import { DeveloperListComponent } from './developer-list/developer-list.component';
 import { CreateOnomatopiaComponent } from './create-onomatopia/create-onomatopia.component';
 import { OnomatopiaListComponent } from './onomatopia-list/onomatopia-list.component';
+import { CocktailComponent } from './cocktail/cocktail.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { OnomatopiaListComponent } from './onomatopia-list/onomatopia-list.compo
     SkillComponent,
     DeveloperListComponent,
     CreateOnomatopiaComponent,
-    OnomatopiaListComponent
+    OnomatopiaListComponent,
+    CocktailComponent
   ],
   imports: [
     BrowserModule,
