@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Mojito",
+        "price": 4.5,
+        "img": "https://thenovicechefblog.com/wp-content/uploads/2020/04/mojito-cocktail-recipe.jpeg"
+    },
+    {
+        "name": "bloody Mary",
+        "price": 5,
+        "img": "http://www.thelastfoodblog.com/wp-content/uploads/2017/06/Spicy-Bloody-Mary-2.jpg"
+    },
+    {
+        "name": "Pina colada",
+        "price": 4,
+        "img": "https://www.wineandglue.com/wp-content/uploads/2018/05/pina_colada_recipe_image-3.jpg"
+    },
+    {
+        "name": "Ti Punch",
+        "price": 3,
+        "img": "https://img-3.journaldesfemmes.fr/7De6zdwIm6vwVgY31Lo7_gZRaiA=/750x500/smart/4c034af9d0e146219a849efa1ef5ca03/recipe-jdf/1006892.jpg"
+    }
+]
