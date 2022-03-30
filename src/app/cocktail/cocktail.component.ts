@@ -1,7 +1,6 @@
-import { MethodCall } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
 import { Cocktail } from '../Cocktail';
-import { CocktailServiceService } from '../CocktailService.service';
+import { CocktailService } from '../Cocktail.service';
 
 @Component({
   selector: 'app-cocktail',
@@ -9,13 +8,18 @@ import { CocktailServiceService } from '../CocktailService.service';
   styleUrls: ['./cocktail.component.scss'],
 })
 export class CocktailComponent implements OnInit {
-  cocktails: Cocktail[] = [];
+  public  cocktails:Array<Cocktail>  =  [];
+  private  service:CocktailService;
 
-  constructor(private cocktailServiceService: CocktailServiceService) {}
+  constructor( param_service:CocktailService ){
+      this.service  =  param_service;
+  }
 
-  ngOnInit(): void {}
-
-  showCocktail() {
-    this.cocktails = this.cocktailServiceService.getCocktail();
+  public ngOnInit(){
+      this.service.getCocktail().subscribe(
+          (param_data:Array<Cocktail>) => {
+              this.cocktails  =  param_data;
+          }
+      );
   }
 }

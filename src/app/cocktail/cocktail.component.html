@@ -1,6 +1,11 @@
-<button (click)="showCocktail()">Cocktail</button>
-<div *ngFor="let cocktail of cocktails">
-    <p>{{cocktail.name}}</p>
-    <p>{{cocktail.price}}</p>
-    <img src={{cocktail.img}} alt="">
+<div class="contain">
+  <div *ngFor="let cocktail of cocktails">
+    <div class="cocktail">
+        <div class="description">
+            <h1 class="name">{{ cocktail.name }}</h1>
+            <h2 class="price">{{ cocktail.price }} €</h2>
+        </div>
+      <img src="{{ cocktail.img }}" alt="{{ cocktail.name }}" />
+    </div>
+  </div>
 </div>

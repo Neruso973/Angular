@@ -1,0 +1,34 @@
+img {
+  width: 150px;
+  height: 100%;
+  border-radius: 2em;
+  margin-left: 2em;
+}
+
+.cocktail {
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+  border: solid black 2px;
+  border-radius: 2em;
+  margin: 2em;
+}
+
+.name {
+  margin: 1em 0 0 1em;
+}
+
+.price {
+  font-size: larger;
+  color: blue;
+}
+
+.contain {
+  display: flex;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
